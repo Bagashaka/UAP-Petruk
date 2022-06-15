@@ -106,7 +106,7 @@ int main(){
    	   }
    	   	 getch();
    	  	 system("cls");
-	}while(pilih != 4);
+	}while(pilih != 3);
 	
 		return 0;
 }
