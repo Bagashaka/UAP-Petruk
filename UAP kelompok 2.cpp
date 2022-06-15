@@ -29,7 +29,7 @@ void push(){
         pangan.push(a);
         total = total + harga[a-1];
     }
-}
+  }
 
 void pop(){
     if(!pangan.empty()){
@@ -41,14 +41,14 @@ void pop(){
         cout << "Keranjang Kosong" << endl;
     }
     getch();
-}
+ }
 
 void display(){
     cout << ">SAYURAN TUBABA<" << endl;
     for(int i = 0; i<10; i++){
         cout << tanaman[i] << endl;
     }
-}
+ }
 
 void print(stack<int> x){
     stack<int> keranjang = x;
@@ -58,7 +58,7 @@ void print(stack<int> x){
             cout << "--------------------------------------" << endl;
             keranjang.pop();
         }
-}
+ }
 
 int main(){
 	int pilih;
