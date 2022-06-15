@@ -3,11 +3,11 @@
 #include <stack>
 using namespace std;
 
-string tanaman[]={"1.Kentang", "2.Tomat", 
-                   "3.Wortel", "4.Jagung", 
-                   "5.Cabai", "6.Bawang Merah", 
-                   "7.Kacang Tanah", "8.Terong", 
-                   "9.Singkong", "10.Bayam"};
+string tanaman[]={"1. Kentang", "2. Tomat", 
+                   "3. Wortel", "4. Jagung", 
+                   "5. Cabai", "6. Bawang Merah", 
+                   "7. Kacang Tanah", "8. Terong", 
+                   "9. Singkong", "10. Bayam"};
                    
 int harga[]={15000,12000,
              13000,10000,
@@ -95,7 +95,7 @@ int main(){
 				
 		       }else{
 		       	cout << "---------------------------------------------------" << endl;
-		       	cout<< "Maaf Silahkan masukkan Sayuran yang ingin anda beli!" << endl;
+		       	cout<< "Maaf Silahkan Masukkan Sayuran yang Ingin Anda Beli!" << endl;
 			   }
         		break;
         		
